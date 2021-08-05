@@ -7,7 +7,6 @@ body{
 /* first section start  */
 .top-section{
     background-color: #2D25A0;
-    margin-bottom: 70px;
 }
 .top-parant{
     display: flex;
@@ -36,10 +35,26 @@ body{
 
 /* second section start  */
 .players{
+    background-color: lightyellow;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    padding: 70px 210px 27px 180px;
+}
+.player{
+    background-color: white;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    width: 330px;
+    height: 474px;
+    left: 180px;
+    top: 747px;
+    margin-right: 30px;
+    margin-bottom: 27px;
 }
 .player-img{
     width: 300px;
     height: 256px;
+    padding: 15px 15px 8px 15px;
+}
+.title-p{
+    padding: 8px 15px 33px 15px;
 }
