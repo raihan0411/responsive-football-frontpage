@@ -68,8 +68,7 @@ body{
 }
 /* thirdpart  */
 .thirdpart-parant{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
     align-items: center;
     background-color: honeydew;
 }
