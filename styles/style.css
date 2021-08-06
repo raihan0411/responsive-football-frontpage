@@ -17,6 +17,10 @@ body{
     font-size: 30px;
     width: 70%;
     padding: 207px 51px 86px 102px;
+    transition: color 5s;
+}
+.top-sec-text:hover{
+    color:lawngreen
 }
 .button{
     text-decoration: none;
@@ -30,6 +34,10 @@ body{
 .top-sec-img img{
     width: 60%;
     padding: 153px 140px 80px 51px;
+    transition: transform 8s;
+}
+.top-sec-img img:hover{
+    transform: rotate(360deg);
 }
 /* first section end  */
 
@@ -60,7 +68,8 @@ body{
 }
 /* thirdpart  */
 .thirdpart-parant{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     background-color: honeydew;
 }
@@ -111,3 +120,27 @@ body{
     margin-bottom: 63px;
 }
 /* logo+footer end  */
+
+
+/* Media Queries  */
+/* Mobail Devices  */
+
+/* @media only screen and (max-width:688px) {
+    .top-parant, .thirdpart-parant, .logo img, .footerparant{
+        width: 100%;
+    }
+    .top-parant, .players, .thirdpart-parant, .footerparant{
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+}
+/* tablet devices  */
+/* @media only screen and (max-width:689px) and (max-width:992px) {
+    .top-parant, .thirdpart-parant, .logo img, .footerparant{
+        width: 100%;
+    }
+    .top-parant, .players, .thirdpart-parant, .footerparant{
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+}  */
